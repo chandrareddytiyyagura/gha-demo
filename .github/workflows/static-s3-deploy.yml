@@ -1,6 +1,6 @@
 name: Deploy HTML to s3
-on: push
-
+#on: push
+on: workflow_dispatch
 jobs:
   deploy:
     runs-on: ubuntu-latest
