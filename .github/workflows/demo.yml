@@ -18,4 +18,5 @@ jobs:
         run: |
           echo "A demo build"
           echo "Hello, ${{ vars.MY_NAME }}"
+          echo "Docker password, ${{ secrets.DOCKER_PASSWORD }}"
           echo "Build completed"
