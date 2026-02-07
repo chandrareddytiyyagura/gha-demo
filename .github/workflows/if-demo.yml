@@ -1,10 +1,10 @@
 name: if demo
-on:
-  push:
-    branches:
-      - main
-      - develop
-
+#on:
+#  push:
+#    branches:
+#      - main
+#      - develop
+on: workflow_dispatch
 jobs:
   demo:
     runs-on: ubuntu-latest
