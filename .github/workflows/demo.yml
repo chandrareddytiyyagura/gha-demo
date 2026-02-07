@@ -8,17 +8,17 @@ jobs:
         run: |
           echo "A demo build"
           echo "Build completed"
-    test:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Testing
-          run: |
-            echo "Testing started"
-            echo "Testing completed"
-    deploy:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Deployment
-          run: |
-            echo "Deployment started"
-            echo "Deployment ended"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing
+        run: |
+          echo "Testing started"
+          echo "Testing completed"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployment
+        run: |
+          echo "Deployment started"
+          echo "Deployment ended"
