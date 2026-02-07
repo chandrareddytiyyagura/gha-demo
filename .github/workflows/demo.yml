@@ -12,5 +12,5 @@ jobs:
       - name: Build step
         run: |
           echo "A demo build"
-          echo "Hello, ${{ vars.MY_NAME }}
+          echo "Hello, ${{ vars.MY_NAME }}"
           echo "Build completed"
