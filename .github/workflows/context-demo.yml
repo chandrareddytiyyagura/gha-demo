@@ -11,3 +11,6 @@ jobs:
           echo "This repository name is ${{ github.repository }}"
       - name: Print all variables under github
         run: echo "${{ toJSON(github) }}"
+
+      - name: Print environment varibales
+        run: printenv
