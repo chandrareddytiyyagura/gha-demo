@@ -6,6 +6,8 @@ on:
       - devlop
       - 'release/**'
   pull_request:
+    types:
+      - opened
     branches:
       - main
 jobs:
